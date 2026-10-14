@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="arhitecsh animated developer banner">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081225"/><stop offset="0.55" stop-color="#0C1830"/><stop offset="1" stop-color="#07101F"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#54E1DF"/><stop offset="1" stop-color="#6E89FF"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#6E9ACF" stroke-opacity=".12" stroke-width="1"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="16"/></filter>
+  <clipPath id="bounds"><rect width="1200" height="360" rx="26"/></clipPath>
+ </defs>
+ <g clip-path="url(#bounds)">
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="990" cy="140" r="130" fill="#1BA7BC" opacity=".16" filter="url(#glow)"><animate attributeName="cx" values="970;1020;970" dur="9s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="320" r="90" fill="#6557C7" opacity=".14" filter="url(#glow)"/>
+  <rect x="54" y="44" width="167" height="30" rx="15" fill="#12313D" stroke="#48D9C7" stroke-opacity=".45"/>
+  <circle cx="74" cy="59" r="5" fill="#42E3B9"><animate attributeName="opacity" values="1;.35;1" dur="2.7s" repeatCount="indefinite"/></circle>
+  <text x="89" y="64" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#9BE7DE">OPEN TO BUILD</text>
+  <text x="54" y="145" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="800" letter-spacing="-3" fill="#ECF6FF">arhitecsh</text>
+  <rect x="54" y="168" width="256" height="4" rx="2" fill="url(#cyan)"/>
+  <text x="54" y="224" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#B8D1EA" font-weight="500">Frontend  ·  Interfaces  ·  Products</text>
+  <text x="54" y="265" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#7F9AB7">From idea to interactive experience.</text>
+  <text x="54" y="322" font-family="monospace" font-size="14" fill="#4ECBBE">&gt; design. build. improve._</text>
+  <rect x="742" y="52" width="386" height="242" rx="14" fill="#0C1C31" stroke="#375778" stroke-width="1.5"/>
+  <path d="M742 88H1128" stroke="#375778"/>
+  <circle cx="767" cy="71" r="5" fill="#F47882"/><circle cx="785" cy="71" r="5" fill="#F4C86D"/><circle cx="803" cy="71" r="5" fill="#5ED0B6"/>
+  <text x="826" y="76" fill="#829CB7" font-size="13" font-family="monospace">developer.tsx</text>
+  <g font-family="monospace" font-size="18">
+   <text x="775" y="125" fill="#7D91B3">01</text><text x="819" y="125" fill="#7DB6F4">const</text><text x="881" y="125" fill="#D6E6F5"> developer = {</text>
+   <text x="775" y="161" fill="#7D91B3">02</text><text x="837" y="161" fill="#8AD8D0">focus:</text><text x="916" y="161" fill="#F1D18D"> 'frontend'</text><text x="1040" y="161" fill="#D6E6F5">,</text>
+   <text x="775" y="197" fill="#7D91B3">03</text><text x="837" y="197" fill="#8AD8D0">mindset:</text><text x="930" y="197" fill="#F1D18D"> 'create'</text><text x="1037" y="197" fill="#D6E6F5">,</text>
+   <text x="775" y="233" fill="#7D91B3">04</text><text x="837" y="233" fill="#8AD8D0">status:</text><text x="925" y="233" fill="#F1D18D"> 'building'</text>
+   <text x="775" y="269" fill="#7D91B3">05</text><text x="819" y="269" fill="#D6E6F5">}</text><rect x="836" y="254" width="9" height="19" fill="#5DE0D2"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+  </g>
+  <g fill="#47D5D0" opacity=".7">
+   <circle cx="1140" cy="318" r="3"><animate attributeName="cy" values="318;306;318" dur="3s" repeatCount="indefinite"/></circle>
+   <circle cx="1160" cy="297" r="2"><animate attributeName="cy" values="297;310;297" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+ </g>
+</svg>
